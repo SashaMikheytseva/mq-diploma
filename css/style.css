@@ -65,8 +65,8 @@ body {
 }
 
 .header-logo {
-    width: 180px;
-  }
+  width: 180px;
+}
 
 .logo-mobile {
   display: none;
@@ -150,7 +150,6 @@ body {
 }
 
 .trends-item {
-  /*margin-right: 4px:*/
   width: calc(25% - 4px);
   background-size: cover;
   background-position: center center;
@@ -252,7 +251,6 @@ body {
 }
 
 .posts {
-  /*width: 778px;*/
   display: flex;
 }
 
