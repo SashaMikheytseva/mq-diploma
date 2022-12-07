@@ -150,6 +150,7 @@ body {
 }
 
 .trends-item {
+  /*margin-right: 4px:*/
   width: calc(25% - 4px);
   background-size: cover;
   background-position: center center;
@@ -222,6 +223,10 @@ body {
   font-family: Open Sans Bold, Arial, sans-serif;
 }
 
+.trends-tag-link:hover {
+  text-decoration: underline;
+}
+
 .trends-box-title {
   font-family: Open Sans Bold, Arial, sans-serif;
   font-size: 20px;
@@ -232,6 +237,10 @@ body {
 .trends-title-link {
   text-decoration: none;
   color: #ffffff;
+}
+
+.trends-title-link:hover {
+  color: #b59f5b;
 }
 
 
@@ -251,6 +260,7 @@ body {
 }
 
 .posts {
+  /*width: 778px;*/
   display: flex;
 }
 
@@ -258,8 +268,9 @@ body {
   margin-top: 60px;
 }
 
+
 .posts-img {
-  width: 380px;
+  width: 23vw;
 }
 
 .posts-text {
@@ -425,6 +436,11 @@ body {
   padding-left: 17px;
 }
 
+.field:focus {
+  outline: 2px solid #b59f5b;
+  outline-offset: -2px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -484,6 +500,11 @@ body {
   font-size: 13px;
   font-weight: 400;
   padding-left: 17px;
+}
+
+.email-field:focus {
+  outline: 2px solid #b59f5b;
+  outline-offset: -2px;
 }
 
 .email-button {
@@ -593,7 +614,7 @@ body {
 .theme-list-item {
   font-family: Open Sans Bold, Arial, sans-serif;
   font-size: 14px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   
   border-bottom: 1px solid #eeeeee;
   padding-top: 18px;
@@ -884,6 +905,11 @@ body {
   -moz-appearance: none;
 } 
 
+.select:focus {
+  outline: 1px solid #b59f5b;
+  outline-offset: -1px;
+}
+
 .radio-group {
   display: inline-block;
   font-size: 12px;
@@ -922,6 +948,12 @@ body {
   color: grey;
   padding: 20px;
   font-size: 12px;
+  border: none;
+}
+
+.text-field:focus {
+  outline: 1px solid #b59f5b;
+  outline-offset: -1px;
 }
 
 .popup-button {
@@ -957,6 +989,7 @@ body {
   top: -25px;
 }
 
+/*=========================MENU-BURGER========*/
 
 @media (max-width: 1199px) {
   .menu-burger {
