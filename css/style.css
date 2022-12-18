@@ -326,6 +326,8 @@ body {
   justify-content: flex-end;
   min-height: 320px;
   z-index: 0;
+
+  padding: 132px 0 15px 0; /*!!!!!*/
 }
 
 .trends-item::before {
@@ -360,7 +362,7 @@ body {
 .trends-content {
   border: 3px solid #726539;
   padding: 38px 32px;
-  margin-bottom: 16px;
+  /*margin-bottom: 16px;*/
   margin-right: 20px;
   margin-left: 20px;
 }
@@ -1229,11 +1231,15 @@ body {
 
 
   .trends-content {
-    padding: 35px 30px;
+    padding: 35px 15px;
   }
 
-  .trends-box-title {
+  /*.trends-box-title {
     font-size: 17px;
+  }*/
+
+  .trends-box-title, .trends-tag-link {
+    font-size: 12px;
   }
 
   .content {
@@ -1330,7 +1336,6 @@ body {
 @media (max-width: 640px) {
   .header {
     background-image: url("../images/banner-mobile.jpg");
-
   }
 
   .menu {
@@ -1380,6 +1385,7 @@ body {
   .trends-item {
     width: 100%;
     min-height: 230px;
+    padding: 85px 0 15px 0;   /*!!!!*/
   }
 
   .trends-content {
@@ -1552,11 +1558,15 @@ body {
   }
 
   .trends-content {
-    padding: 35px 20px;
+    padding: 35px 15px;
   }
 
-  .trends-box-title {
+  /*.trends-box-title {
     font-size: 14px;
+  }*/
+
+  .trends-box-title, .trends-tag-link {
+    font-size: 12px;
   }
 
   .content {
